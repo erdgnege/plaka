@@ -8,3 +8,4 @@
 Çıktı:
 Lutfen bir plaka kodu giriniz: 61
 Trabzon Doğu Karadeniz bölgesinde yer alır.
+-->Added "w" to printf line for having able to use Turkish characters while running program.
