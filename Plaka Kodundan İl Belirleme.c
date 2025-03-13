@@ -12,7 +12,7 @@ int main() {
     int plakaKodu, girilenKod;
 
     // Kullanıcıdan plaka kodu al
-    printf("Lutfen bir plaka kodu giriniz: ");
+    wprintf(L"Lütfen bir plaka kodu giriniz: ");
     scanf("%d", &girilenKod);
 
     // Dosyayı açma işlemi
