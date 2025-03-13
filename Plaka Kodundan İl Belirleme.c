@@ -18,7 +18,7 @@ int main() {
     // Dosyayı açma işlemi
     dosya = fopen("plaka.txt", "r, ccs=UTF-8"); // UTF-8 kodlamasıyla aç
     if (dosya == NULL) { // Dosya açılamazsa hata ver
-        printf("Dosya bulunamadi veya acilamadi!\n");
+        wprintf(L"Dosya bulunamadı veya açılamadı!\n");
         return 1; // Programı sonlandır
     }
 
